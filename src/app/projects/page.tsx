@@ -25,7 +25,7 @@ export default function Projects() {
             <div style={{ display: "flex", gap: "0.5rem", marginLeft: "1rem" }}>
               {project.sourceCode && (
                 <Link href={project.sourceCode}>
-                  <button box-="round" variant-="sapphire" className={styles.firstBoxButtons}>Source Code</button>
+                  <button box-="round" variant-="sapphire" className={styles.firstBoxButtons}>Code</button>
                 </Link>
               )}
               {project.blog && (
