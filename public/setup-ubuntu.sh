@@ -19,11 +19,11 @@ echo "alias v=nvim" >> ~/.bashrc
 # configure
 mkdir ~/.config/
 # tmux config
-git clone https://github.com/Josh-LeBlanc/tmux-config.git ~/tmux-config
+git clone https://github.com/josh-le/tmux-config.git ~/tmux-config
 cp ~/tmux-config/.tmux.conf ~
 rm -rf ~/tmux-config
 # nvim config
-git clone https://github.com/Josh-LeBlanc/nvim-dots.git ~/.config/nvim
+git clone https://github.com/josh-le/nvim-dots.git ~/.config/nvim
 cd ~/.config/nvim
 git switch universal
 
